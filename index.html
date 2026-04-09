@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Proposal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="proposal-container">
+        <div class="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="circle active">1</div>
+            <div class="circle">2</div>
+            <div class="circle">3</div>
+            <div class="circle">4</div>
+        </div>
+
+        <div class="step active" id="step-1">
+            <h1>Executive Summary</h1>
+            <p>Welcome to the project overview. This layer covers the high-level vision and objectives.</p>
+            <ul>
+                <li>Goal A: Market Expansion</li>
+                <li>Goal B: Digital Transformation</li>
+            </ul>
+        </div>
+
+        <div class="step" id="step-2">
+            <h1>The Strategy</h1>
+            <p>Here we dive into the "How." This layer explains our specific approach to solving the problem.</p>
+            <div class="card">Phase 1: Research & Discovery</div>
+            <div class="card">Phase 2: Implementation</div>
+        </div>
+
+        <div class="step" id="step-3">
+            <h1>Financials & Timing</h1>
+            <p>A breakdown of the investment required and the expected delivery milestones.</p>
+            <table class="proposal-table">
+                <tr><th>Milestone</th><th>Deadline</th><th>Cost</th></tr>
+                <tr><td>Setup</td><td>Week 2</td><td>$5,000</td></tr>
+                <tr><td>Launch</td><td>Week 12</td><td>$15,000</td></tr>
+            </table>
+        </div>
+
+        <div class="step" id="step-4">
+            <h1>Next Steps</h1>
+            <p>Ready to move forward? Review the terms and click below to finalize the proposal.</p>
+            <button class="btn-approve">Approve Proposal</button>
+        </div>
+
+        <div class="navigation">
+            <button class="btn" id="prev" disabled>Previous</button>
+            <button class="btn" id="next">Next Layer</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
